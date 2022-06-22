@@ -32,7 +32,7 @@ export const getFilteredSites = (state) => {
       status.forEach((statusElement) => {
         selectedStatus.push(
           statusElement.value === DeviceStatusName.Disconnected
-            ? 3
+            ? DeviceStatusName.Disconnected
             : statusElement.value
         );
       });

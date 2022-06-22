@@ -593,11 +593,21 @@ export const getElectricityFlowDirection = (busFlow, deviceListId) => {
  * @param {number} dcBusFlow DC Bus flow value that is coming from the edge.
  * @return {number} A numerical value indicating the flow direction as defined in "FlowDirection" enum.
  */
-export const getElectricityCDemandInverterFlowDirection = (dcBusFlow) => {
+export const getElectricityCDemandInverterFlowDirection = (
+  dcBusFlow,
+  siteType
+) => {
+  let direction;
   if (getValueIfExists(() => dcBusFlow, 0) === 0) {
-    return FlowDirection.None;
+    direction = FlowDirection.None;
   }
-  return dcBusFlow > 0 ? FlowDirection.StartToEnd : FlowDirection.EndToStart;
+  if (siteType === SiteTypesId.Ignition) {
+    direction =
+      dcBusFlow > 0 ? FlowDirection.StartToEnd : FlowDirection.EndToStart;
+  } else {
+    direction = dcBusFlow > 0 ? FlowDirection.EndToStart : FlowDirection.None;
+  }
+  return direction;
 };
 
 /**
@@ -836,7 +846,8 @@ const getPowerGIDConfiguration = (siteOverview, systemDiagramConfiguration) => {
  */
 const getMicroGridItemsConfiguration = (
   microGridItems,
-  systemDiagramConfiguration
+  systemDiagramConfiguration,
+  siteOverview
 ) => {
   let microGridItemUiData = [];
   if (microGridItems && systemDiagramConfiguration) {
@@ -860,7 +871,8 @@ const getMicroGridItemsConfiguration = (
             } else if (microGridItem.name === DeviceListTypeId.CustomerLoad) {
               // CDemand Inverter <-> DC Bus flow
               flowDirection = getElectricityCDemandInverterFlowDirection(
-                microGridItem.dcBusFlow.currentFlow
+                microGridItem.dcBusFlow.currentFlow,
+                siteOverview.siteType.siteTypeId
               );
             } else {
               // Flow for every other device group
@@ -966,7 +978,11 @@ export const getSystemDiagramConfiguration = (
 
     configuration = [
       ...configuration,
-      ...getMicroGridItemsConfiguration(microGridItems, diagramConfiguration),
+      ...getMicroGridItemsConfiguration(
+        microGridItems,
+        diagramConfiguration,
+        siteOverview
+      ),
     ];
   }
   return configuration;

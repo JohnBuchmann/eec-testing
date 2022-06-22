@@ -171,7 +171,7 @@ export const getSites = (
                 if (
                   selectedStatus.length > 0
                     ? selectedStatus.includes(Number(asset.siteStatus)) ||
-                      selectedStatus.includes(Number(asset.siteCommStatus))
+                      selectedStatus.includes(asset.siteCommStatusSymbolName)
                     : selectedStatus
                 ) {
                   const newAsset = {

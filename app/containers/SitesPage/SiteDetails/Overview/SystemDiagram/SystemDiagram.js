@@ -7,7 +7,7 @@ import { Box } from '@material-ui/core';
 import PropTypes from 'prop-types';
 import React from 'react';
 import { Colors } from 'Theme';
-import { DeviceListTypeId } from 'Utils/enums/device';
+import { DeviceListTypeId, DeviceListTypeName } from 'Utils/enums/device';
 import { SiteTypesId } from 'Utils/enums/siteTypes';
 import { getValueIfExists, propertyExist } from 'Utils/propertyValidation';
 import {
@@ -67,6 +67,20 @@ function SystemDiagram(props) {
     existsEv = siteOverview.microGridConsumption.some(
       (device) => device.name === 'EV'
     );
+  }
+
+  if (
+    existsCustomerLoad &&
+    siteOverview.siteType.siteTypeId === SiteTypesId.Xcape
+  ) {
+    const customerLoad = siteOverview.microGridConsumption.find(
+      (device) => device.name === DeviceListTypeId.CustomerLoad
+    );
+    siteOverview.microGridProductionAssets.push({
+      ...customerLoad,
+      name: DeviceListTypeId.Inverter,
+      description: DeviceListTypeName.Inverter,
+    });
   }
   const systemDiagramElements = getSystemDiagramConfiguration(
     siteOverview,

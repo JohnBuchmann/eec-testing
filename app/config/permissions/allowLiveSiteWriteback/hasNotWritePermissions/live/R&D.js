@@ -46,7 +46,7 @@ export const RD = {
   notifications: false,
   RandDEngineer: {
     siteDetails: {
-      edit: [SiteDetailsCatalog.BusBand, SiteDetailsCatalog.siteAdmin],
+      edit: [SiteDetailsCatalog.BusBand, SiteDetailsCatalog.SiteAdmin],
     },
     deviceDetail: {
       edit: [DeviceDetailTabs.Status, DeviceDetailTabs.Events],

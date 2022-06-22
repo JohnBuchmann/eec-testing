@@ -589,7 +589,7 @@ describe('SystemDiagram', () => {
               x: 218,
               y: 389,
               segments: [{ direction: 2, length: -100 }],
-              flowDirection: 0,
+              flowDirection: 2,
             },
           ],
           deviceGroupId: 9,
