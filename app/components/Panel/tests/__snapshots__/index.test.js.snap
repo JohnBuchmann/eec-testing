@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Panel /> should render and match the snapshot 1`] = `
+<div
+  className="makeStyles-wrapper-1"
+>
+  <div
+    className="makeStyles-separator-2"
+  />
+  <div
+    className="makeStyles-content-4"
+  />
+</div>
+`;

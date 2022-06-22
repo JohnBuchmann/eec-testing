@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>01 Icons/01 Small/elipsis</title>
+    <g id="01-Icons/01-Small/elipsis" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ellipsis-vertical" transform="translate(10.000000, 4.000000)" fill="#373A37">
+            <circle id="Oval" cx="1.84615385" cy="7.99846154" r="1.84615385"></circle>
+            <circle id="Oval" cx="1.84615385" cy="14.1507692" r="1.84615385"></circle>
+            <circle id="Oval" cx="1.84615385" cy="1.84615385" r="1.84615385"></circle>
+        </g>
+    </g>
+</svg>

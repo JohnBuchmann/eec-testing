@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <path fill="#E1F3E1" d="M1.6 3.2H16V21.599999999999998H1.6z" transform="translate(-25 -186) translate(0 56) translate(0 122) translate(25 8) translate(7 4)"/>
+                            <path fill="#FFF" stroke="#373A37" stroke-width="1.6" d="M4.8 18.4H12.8V22.4H4.8z" transform="translate(-25 -186) translate(0 56) translate(0 122) translate(25 8) translate(7 4)"/>
+                            <path stroke="#373A37" stroke-width=".8" d="M4.4 5.2H7.6000000000000005V6.2H4.4zM4.4 8.4H7.6000000000000005V9.4H4.4zM10 5.2H13.2V6.2H10zM10 8.4H13.2V9.4H10zM4.4 11.6H7.6000000000000005V12.6H4.4zM10 11.6H13.2V12.6H10zM4.4 14.8H7.6000000000000005V15.8H4.4zM10 14.8H13.2V15.8H10z" transform="translate(-25 -186) translate(0 56) translate(0 122) translate(25 8) translate(7 4)"/>
+                            <path stroke="#373A37" stroke-width="1.6" d="M0.8 2.4H16.8V22.4H0.8z" transform="translate(-25 -186) translate(0 56) translate(0 122) translate(25 8) translate(7 4)"/>
+                            <path stroke="#373A37" stroke-width=".8" d="M0.4 0.4H5.2V1.4H0.4z" transform="translate(-25 -186) translate(0 56) translate(0 122) translate(25 8) translate(7 4)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

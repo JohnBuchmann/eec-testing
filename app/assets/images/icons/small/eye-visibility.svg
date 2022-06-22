@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>01 Icons/eye_visibility@3x</title>
+    <g id="01-Icons/eye_visibility" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="-g-">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            <path d="M11.9859976,6 C8.8546122,6 5.64247128,7.87958333 3.11373895,11.63875 C2.9661345,11.8605896 2.96185367,12.1527788 3.10289119,12.3791667 C5.04584473,15.5333333 8.2149964,18 11.9859976,18 C15.7160184,18 18.9502566,15.5258333 20.8968261,12.3645833 C21.0343913,12.1429156 21.0343913,11.8583344 20.8968261,11.6366667 C18.9458372,8.51166667 15.6878946,6 11.9859976,6 Z" id="Path" stroke="#373A37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval" stroke="#373A37" stroke-width="1.5" cx="12" cy="12" r="3"></circle>
+        </g>
+    </g>
+</svg>

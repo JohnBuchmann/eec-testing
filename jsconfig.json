@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "Assets/*": ["app/assets/*"],
+      "Components/*": ["app/components/*"],
+      "Containers/*": ["app/containers/*"],
+      "Utils/*": ["app/utils/*"],
+      "Internals/*": ["app/internals/*"],
+      "Theme": ["app/theme"],
+      "Store/*": ["app/store/*"],
+      "System/*": ["app/system/*"],
+      "Config/*": ["app/config/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

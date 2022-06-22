@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Accordion /> #constructor should render and match the snapshot 1`] = `
+<AccordionComponent
+  classes={
+    Object {
+      "container": "AccordionComponent-container-6",
+      "icon": "AccordionComponent-icon-8",
+      "titleContainer": "AccordionComponent-titleContainer-7",
+    }
+  }
+/>
+`;

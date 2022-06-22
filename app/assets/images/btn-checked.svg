@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>02 Buttons/04 Checkbox/btn-checked</title>
+    <g id="02-Buttons/04-Checkbox/btn-checked" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Checkbox" transform="translate(3.000000, 3.000000)">
+            <rect id="Rectangle" fill="#20C161" x="0" y="0" width="20" height="20" rx="2"></rect>
+            <g id="2089713" transform="translate(3.076923, 5.384615)" fill="#FFFFFF">
+                <polygon id="Path" points="0 5.42538967 4.74153073 10 13.8461538 1.24129423 12.5390363 4.37257068e-14 4.74153073 7.49995474 1.28901613 4.17535411"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

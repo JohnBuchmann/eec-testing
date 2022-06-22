@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>01 Icons/02 Categories/ic-utility</title>
+    <g id="01-Icons/02-Categories/ic-utility" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-Icons/ic-utility" transform="translate(0.000000, 4.000000)">
+            <circle id="Oval" stroke="#000000" stroke-width="0.879999967" cx="12" cy="8" r="7.56000002"></circle>
+            <rect id="Rectangle" fill="#000000" x="0" y="8" width="5" height="1" rx="0.5"></rect>
+            <rect id="Rectangle" fill="#000000" x="19" y="8" width="5" height="1" rx="0.5"></rect>
+            <path d="M8,8.10748694 C9.67059384,6.6578077 11.0786624,6.63133028 12.2242056,8.02805465 C13.3697489,9.42477903 14.628347,9.31614177 16,7.70214287" id="Path-14" stroke="#000000" stroke-width="1.31999995"></path>
+        </g>
+    </g>
+</svg>

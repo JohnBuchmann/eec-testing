@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>01 Icons/01 Small/ic-copy (1)</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.022618 0 0 0 0 0.171293 0 0 0 0 0.246213 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="01-Icons/01-Small/ic-copy-(1)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="copy">
+            <g transform="translate(4.000000, 4.000000)">
+                <path d="M13.4285714,16 L5.42857143,16 C4.00841064,16 2.85714286,14.8487322 2.85714286,13.4285714 L2.85714286,5.42857143 C2.85714286,4.00841064 4.00841064,2.85714286 5.42857143,2.85714286 L13.4285714,2.85714286 C14.8487322,2.85714286 16,4.00841064 16,5.42857143 L16,13.4285714 C16,14.8487322 14.8487322,16 13.4285714,16 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M4.57142857,1.71428571 L12.9957143,1.71428571 C12.6314096,0.687719669 11.6607192,0.00131508664 10.5714286,0 L2.57142857,0 C1.15126779,0 0,1.15126779 0,2.57142857 L0,10.5714286 C0.00131508664,11.6607192 0.687719669,12.6314096 1.71428571,12.9957143 L1.71428571,4.57142857 C1.71428571,2.99347214 2.99347214,1.71428571 4.57142857,1.71428571 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

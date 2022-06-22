@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Labeling should display label 1`] = `
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <Labeling
+    description="Testing"
+    label="Test"
+    x={100}
+    y={100}
+  >
+    <desc>
+      Label
+    </desc>
+    <text
+      className="makeStyles-label-2"
+      x={100}
+      y={100}
+    >
+      <tspan
+        className="makeStyles-labelTitle-3"
+      >
+        Test
+        :
+      </tspan>
+      <tspan
+        dx={5}
+      >
+        Testing
+      </tspan>
+    </text>
+  </Labeling>
+</svg>
+`;
+
+exports[`Labeling should display label with default values 1`] = `
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <Labeling>
+    <desc>
+      Label
+    </desc>
+    <text
+      className="makeStyles-label-2"
+      x={0}
+      y={0}
+    >
+      <tspan
+        className="makeStyles-labelTitle-3"
+      >
+        :
+      </tspan>
+      <tspan
+        dx={5}
+      />
+    </text>
+  </Labeling>
+</svg>
+`;

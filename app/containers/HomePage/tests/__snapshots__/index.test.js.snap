@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomePage /> should render and match the snapshot 1`] = `
+<IntlProvider
+  locale="en"
+>
+  <HomePage>
+    <h1>
+      <FormattedMessage
+        defaultMessage="This is the HomePage container!"
+        id="app.containers.HomePage.header"
+        values={Object {}}
+      >
+        <span>
+          This is the HomePage container!
+        </span>
+      </FormattedMessage>
+    </h1>
+  </HomePage>
+</IntlProvider>
+`;

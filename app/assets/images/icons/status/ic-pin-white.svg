@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="52px" viewBox="0 0 44 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>01 Icons/ic_pin_faulted_white</title>
+    <g id="01-Icons/ic_pin_faulted_white" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3-Copy-2" transform="translate(3.000000, 3.000000)">
+            <ellipse id="Oval" fill="#000000" opacity="0.180989583" cx="19" cy="45" rx="11" ry="4"></ellipse>
+            <path d="M19,0 C29.4934102,0 38,8.5621117 38,19.1240117 C38,25.0361333 35.3346264,30.3216603 31.147379,33.8296292 L20.8160721,44.2282645 C19.8195872,45.2312535 18.1986933,45.236526 17.1957044,44.2400411 L17.1839279,44.2282645 L17.1839279,44.2282645 L6.85262095,33.8296292 C2.66537362,30.3216603 0,25.0361333 0,19.1240117 C0,8.5621117 8.50658975,0 19,0 Z" id="Oval-3" fill="#FFFFFF"></path>
+            <g id="Group-7" transform="translate(10.000000, 7.000000)" stroke="#191919">
+                <rect id="Rectangle" stroke-width="0.8" x="2" y="3.6" width="13.6" height="17.6"></rect>
+                <rect id="Rectangle" stroke-width="1.6" x="4.8" y="18.4" width="8" height="4"></rect>
+                <rect id="Rectangle" stroke-width="0.8" x="4.4" y="5.2" width="3.2" height="1"></rect>
+                <rect id="Rectangle" stroke-width="0.8" x="4.4" y="8.4" width="3.2" height="1"></rect>
+                <rect id="Rectangle" stroke-width="0.8" x="10" y="5.2" width="3.2" height="1"></rect>
+                <rect id="Rectangle" stroke-width="0.8" x="10" y="8.4" width="3.2" height="1"></rect>
+                <rect id="Rectangle" stroke-width="0.8" x="4.4" y="11.6" width="3.2" height="1"></rect>
+                <rect id="Rectangle" stroke-width="0.8" x="10" y="11.6" width="3.2" height="1"></rect>
+                <rect id="Rectangle" stroke-width="0.8" x="4.4" y="14.8" width="3.2" height="1"></rect>
+                <rect id="Rectangle" stroke-width="0.8" x="10" y="14.8" width="3.2" height="1"></rect>
+                <rect id="Rectangle" stroke-width="1.6" x="0.8" y="2.4" width="16" height="20"></rect>
+                <rect id="Rectangle" stroke-width="0.8" x="0.4" y="0.4" width="4.8" height="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

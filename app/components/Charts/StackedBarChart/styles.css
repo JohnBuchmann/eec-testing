@@ -1,0 +1,18 @@
+.chart .grid line {
+  stroke: #b0b0b0;
+  stroke-opacity: 0.7;
+  stroke-dasharray: 10, 10;
+  shape-rendering: crispEdges;
+}
+.chart .grid path {
+  stroke-width: 0;
+}
+
+.chart .colour-axis,
+.chart .y-axis,
+.chart .x-axis,
+.chart line,
+.chart path {
+  fill: none;
+  stroke: none;
+}

@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`XcapeTemplate should display Xcape Template 1`] = `
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <IntlProvider
+    locale="en"
+  >
+    <InjectIntl(XcapeTemplate)>
+      <XcapeTemplate
+        intl={
+          Object {
+            "defaultFormats": Object {},
+            "defaultLocale": "en",
+            "formatDate": [Function],
+            "formatHTMLMessage": [Function],
+            "formatMessage": [Function],
+            "formatNumber": [Function],
+            "formatPlural": [Function],
+            "formatRelative": [Function],
+            "formatTime": [Function],
+            "formats": Object {},
+            "formatters": Object {
+              "getDateTimeFormat": [Function],
+              "getMessageFormat": [Function],
+              "getNumberFormat": [Function],
+              "getPluralFormat": [Function],
+              "getRelativeFormat": [Function],
+            },
+            "locale": "en",
+            "messages": Object {},
+            "now": [Function],
+            "onError": [Function],
+            "textComponent": "span",
+            "timeZone": null,
+          }
+        }
+      >
+        <rect
+          fill="none"
+          height="436"
+          rx="40"
+          ry="40"
+          stroke="#ffffff"
+          strokeWidth="1"
+          width="506"
+          x="147"
+          y="60"
+        />
+        <rect
+          fill="none"
+          height="436"
+          rx="40"
+          ry="40"
+          stroke="#ffffff"
+          strokeWidth="1"
+          width="489"
+          x="660"
+          y="61"
+        />
+        <path
+          d="M464,267,h572,q5,0 5, 5,v12,q0,5 -5,5h-572z"
+          fill="#515e51"
+          stroke="#ffffff"
+        />
+        <text
+          className="makeStyles-autoSyncDCBusTitle-1"
+          x={863}
+          y={282}
+        >
+          dc-bus
+        </text>
+        <Labeling
+          description="To/From"
+          label="T/F"
+          x={360}
+          y={530}
+        >
+          <desc>
+            Label
+          </desc>
+          <text
+            className="makeStyles-label-3"
+            x={360}
+            y={530}
+          >
+            <tspan
+              className="makeStyles-labelTitle-4"
+            >
+              T/F
+              :
+            </tspan>
+            <tspan
+              dx={5}
+            >
+              To/From
+            </tspan>
+          </text>
+        </Labeling>
+        <Labeling
+          description="Actual"
+          label="ACT"
+          x={750}
+          y={530}
+        >
+          <desc>
+            Label
+          </desc>
+          <text
+            className="makeStyles-label-3"
+            x={750}
+            y={530}
+          >
+            <tspan
+              className="makeStyles-labelTitle-4"
+            >
+              ACT
+              :
+            </tspan>
+            <tspan
+              dx={5}
+            >
+              Actual
+            </tspan>
+          </text>
+        </Labeling>
+        <Labeling
+          description="Device Capacity"
+          label="CAP"
+          x={951}
+          y={530}
+        >
+          <desc>
+            Label
+          </desc>
+          <text
+            className="makeStyles-label-3"
+            x={951}
+            y={530}
+          >
+            <tspan
+              className="makeStyles-labelTitle-4"
+            >
+              CAP
+              :
+            </tspan>
+            <tspan
+              dx={5}
+            >
+              Device Capacity
+            </tspan>
+          </text>
+        </Labeling>
+      </XcapeTemplate>
+    </InjectIntl(XcapeTemplate)>
+  </IntlProvider>
+</svg>
+`;

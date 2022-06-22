@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GID should render a connected GID when isConnected param is false 1`] = `
+<Fragment>
+  <desc>
+    GID
+  </desc>
+  <text
+    className="makeStyles-gidTitle-1"
+    x={100}
+    y={100}
+  >
+    GID
+  </text>
+  <Status
+    height="24px"
+    roundness="3px"
+    showIcon={true}
+    statusId={2}
+    width="24px"
+    x={97}
+    y={107}
+  />
+</Fragment>
+`;
+
+exports[`GID should render a connected GID when isConnected param is not send 1`] = `
+<Fragment>
+  <desc>
+    GID
+  </desc>
+  <text
+    className="makeStyles-gidTitle-1"
+    x={100}
+    y={100}
+  >
+    GID
+  </text>
+  <Status
+    height="24px"
+    roundness="3px"
+    showIcon={true}
+    statusId={2}
+    width="24px"
+    x={97}
+    y={107}
+  />
+</Fragment>
+`;
+
+exports[`GID should render a connected GID when isConnected param is true 1`] = `
+<Fragment>
+  <desc>
+    GID
+  </desc>
+  <text
+    className="makeStyles-gidTitle-1"
+    x={100}
+    y={100}
+  >
+    GID
+  </text>
+  <Status
+    height="24px"
+    roundness="3px"
+    showIcon={false}
+    statusId={5}
+    width="24px"
+    x={97}
+    y={107}
+  />
+</Fragment>
+`;
+
+exports[`GID should render a connected GID with default props 1`] = `
+<Fragment>
+  <desc>
+    GID
+  </desc>
+  <text
+    className="makeStyles-gidTitle-1"
+    x={0}
+    y={0}
+  >
+    GID
+  </text>
+  <Status
+    height="24px"
+    roundness="3px"
+    showIcon={true}
+    statusId={2}
+    width="24px"
+    x={-3}
+    y={7}
+  />
+</Fragment>
+`;

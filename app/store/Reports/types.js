@@ -1,0 +1,27 @@
+/**
+ * Reports constants
+ */
+export const FETCH_REPORTS_START = '[Reports] FETCH_REPORTS_START';
+export const FETCH_REPORTS_FAIL = '[Reports] FETCH_REPORTS_FAIL';
+export const SET_REPORTS = '[Reports] SET_REPORTS';
+export const CLEAN_REPORTS = '[Reports] CLEAN_REPORTS';
+export const SET_SEARCH_COMPANY = '[Reports] SET_SEARCH_COMPANY';
+export const SET_SEARCH_INTERVAL = '[Reports] SET_SEARCH_INTERVAL';
+export const SET_SEARCH_QUARTER = '[Reports] SET_SEARCH_QUARTER';
+export const SET_SEARCH_SCALE = '[Reports] SET_SEARCH_SCALE';
+export const SET_SEARCH_SITES = '[Reports] SET_SEARCH_SITES';
+export const SET_SEARCH_TIMEPERIOD = '[Reports] SET_SEARCH_TIMEPERIOD';
+export const SET_SEARCH_PARAMS = '[Reports] SET_SEARCH_PARAMS';
+export const SET_SHARE_REPORT = '[Reports] SET_SHARE_REPORT';
+export const SEND_SHARE_REPORT_EMAIL = '[Reports] SEND_SHARE_REPORT_EMAIL';
+export const SEND_SHARE_REPORT_EMAIL_SUCCESS =
+  '[Reports] SEND_SHARE_REPORT_SUCCESS';
+export const CLEAN_SHARE_REPORTS = '[Reports] CLEAN_SHARE_REPORTS';
+export const CLEAN_SEARCH_PARAMS = '[Reports] CLEAN_SEARCH_PARAMS';
+export const GET_REPORTS_CSV_DOWNLOAD_START =
+  '[Reports] GET_REPORTS_CSV_DOWNLOAD_START';
+export const GET_REPORTS_CSV_DOWNLOAD_FAIL =
+  '[Reports] GET_REPORTS_CSV_DOWNLOAD_START';
+export const SET_REPORTS_CSV_DOWNLOAD = '[Reports] SET_REPORTS_CSV_DOWNLOAD';
+export const CLEAR_REPORTS_CSV_DOWNLOAD =
+  '[Reports] CLEAR_REPORTS_CSV_DOWNLOAD';

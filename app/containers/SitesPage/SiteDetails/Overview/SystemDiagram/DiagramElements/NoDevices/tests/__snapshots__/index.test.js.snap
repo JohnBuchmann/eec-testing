@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoDevices should display NoDevices 1`] = `
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <IntlProvider
+    locale="en"
+  >
+    <InjectIntl(NoDevices)>
+      <NoDevices
+        intl={
+          Object {
+            "defaultFormats": Object {},
+            "defaultLocale": "en",
+            "formatDate": [Function],
+            "formatHTMLMessage": [Function],
+            "formatMessage": [Function],
+            "formatNumber": [Function],
+            "formatPlural": [Function],
+            "formatRelative": [Function],
+            "formatTime": [Function],
+            "formats": Object {},
+            "formatters": Object {
+              "getDateTimeFormat": [Function],
+              "getMessageFormat": [Function],
+              "getNumberFormat": [Function],
+              "getPluralFormat": [Function],
+              "getRelativeFormat": [Function],
+            },
+            "locale": "en",
+            "messages": Object {},
+            "now": [Function],
+            "onError": [Function],
+            "textComponent": "span",
+            "timeZone": null,
+          }
+        }
+      >
+        <rect
+          fill="#515e51"
+          height={22}
+          rx={4}
+          stroke="#ffffff"
+          width={855}
+          x={158}
+          y={267}
+        />
+        <text
+          className="makeStyles-noDevicesTitle-1"
+          x={480}
+          y={283}
+        >
+          Site Configuration Unavailable
+        </text>
+      </NoDevices>
+    </InjectIntl(NoDevices)>
+  </IntlProvider>
+</svg>
+`;

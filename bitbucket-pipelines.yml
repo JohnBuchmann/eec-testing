@@ -1,0 +1,47 @@
+#  Template NodeJS build
+
+#  This template allows you to validate your NodeJS code.
+#  The workflow allows running tests and code linting on the default branch.
+
+image: node:16.11.1
+clone:
+  depth: full
+
+definitions:
+  services:
+      docker:
+        memory: 2048   
+  caches:
+    sonar: ~/.sonar/cache  # Caching SonarCloud artifacts will speed up your build
+  steps:
+    - step: &sonar-analysis
+        size: 2x # Double resources available for this step.
+        name: Test and analyze on SonarCloud
+        caches:
+          - node
+          - sonar
+        script:
+          - npm install --quiet
+          - npm run test:ci
+          - pipe: sonarsource/sonarcloud-scan:1.2.1
+            variables:
+              SONAR_SCANNER_OPTS: -Xmx2048m
+pipelines:
+  pull-requests:
+    '**':
+    - step: *sonar-analysis
+  branches:
+    '{dev,release/*}':
+    - step: *sonar-analysis
+    - step:
+        name: Docker
+        size: 2x # Double resources available for this step.
+        services:
+          - docker
+        caches:
+          - docker
+        script:
+          - apt-get update && apt-get install -y jq
+          - git clone git@bitbucket.org:entechdcentriq/dcentriq-ci-scripts.git /tmp/scripts
+          - /tmp/scripts/build-web-app.sh
+    

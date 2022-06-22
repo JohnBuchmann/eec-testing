@@ -1,0 +1,5 @@
+**/static/*.js
+app/containers/Launch/Login/Legal/TermsAndConditions/static/pdf.worker.min.js
+internals/scripts
+build/
+.gitignore
